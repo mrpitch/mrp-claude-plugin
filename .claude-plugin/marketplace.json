@@ -1,13 +1,13 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "mrp-nextjs-plugins",
-  "source": "./plugins/mrp-nextjs",
   "owner": {
     "name": "mrpitch"
   },
   "plugins": [
     {
       "name": "mrp-nextjs",
-      "source": ".",
+      "source": "./plugins/mrp-nextjs",
       "description": "TS/React/Next.js dev agents, skills & commands"
     }
   ]
