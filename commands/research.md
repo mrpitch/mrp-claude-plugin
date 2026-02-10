@@ -20,6 +20,4 @@ Follow the tech-research-planner agent workflow:
 5. Append 3-line summary to `/docs/tasks/context.md`
 6. Return: "Plan saved to tech-researcher-planner-plan.md. Read before proceeding."
 
-**Prerequisite:** context7 MCP must be installed.
-
 $ARGUMENTS

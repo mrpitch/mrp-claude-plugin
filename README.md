@@ -1,11 +1,11 @@
-# mrp-claude-plugin
+# mrp-nextjs
 
 TS/React/Next.js dev agents, skills & commands for Claude Code.
 
 ## Install
 
 ```bash
-claude plugin install github:mrpitch/mrp-claude-plugin
+claude plugin install github:mrpitch/mrp-nextjs
 ```
 
 ## Agents
@@ -32,15 +32,15 @@ claude plugin install github:mrpitch/mrp-claude-plugin
 
 | Command | Purpose |
 |---------|---------|
-| `/mrp-claude-plugin:analyze` | Codebase scan → implementation plan |
-| `/mrp-claude-plugin:requirements` | Interactive requirements Q&A |
-| `/mrp-claude-plugin:plan` | Turn context.md → step-by-step plan |
-| `/mrp-claude-plugin:research` | Library/tech research via context7 |
-| `/mrp-claude-plugin:audit` | OWASP security scan |
+| `/mrp-nextjs:analyze` | Codebase scan → implementation plan |
+| `/mrp-nextjs:requirements` | Interactive requirements Q&A |
+| `/mrp-nextjs:plan` | Turn context.md → step-by-step plan |
+| `/mrp-nextjs:research` | Library/tech research via context7 |
+| `/mrp-nextjs:audit` | OWASP security scan |
 
 ## Prerequisites
 
-- [context7 MCP](https://github.com/upstash/context7) — required for `/mrp-claude-plugin:research` command
+- [context7 MCP](https://github.com/upstash/context7) — required for `/mrp-nextjs:research` command
 - All agents read/write to `/docs/tasks/context.md` for shared context
 
 ## Context Flow

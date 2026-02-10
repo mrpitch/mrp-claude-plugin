@@ -1,0 +1,13 @@
+{
+  "name": "mrp-nextjs-plugins",
+  "owner": {
+    "name": "mrpitch"
+  },
+  "plugins": [
+    {
+      "name": "mrp-nextjs",
+      "source": ".",
+      "description": "TS/React/Next.js dev agents, skills & commands"
+    }
+  ]
+}
