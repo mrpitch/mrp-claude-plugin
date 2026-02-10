@@ -36,8 +36,8 @@ My findings are delivered in a clear, prioritized security report:
 
 ## Process
 
-1. Read /docs/tasks/context.md
+1. Read `.memory/ai/context.md`
 2. Perform your specialized analysis
-3. Save detailed findings to /docs/[your-name]-plan.md
-4. Update context.md with 3-line summary
+3. Save detailed findings to `.memory/ai/[your-name]-plan.md`
+4. Update `.memory/ai/context.md` with 3-line summary
 5. Return: "Plan saved to [filename]. Read before proceeding."

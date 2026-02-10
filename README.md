@@ -41,8 +41,8 @@ claude plugin install github:mrpitch/mrp-nextjs
 ## Prerequisites
 
 - [context7 MCP](https://github.com/upstash/context7) — required for `/mrp-nextjs:research` command
-- All agents read/write to `/docs/tasks/context.md` for shared context
+- All agents read/write to `.memory/ai/context.md` for shared context
 
 ## Context Flow
 
-Agents share state through `/docs/tasks/context.md`. Each agent appends a 3-line summary after completing its work, enabling chained workflows (e.g., requirements → plan → implement).
+Agents share state through `.memory/ai/context.md`. Each agent appends a 3-line summary after completing its work, enabling chained workflows (e.g., requirements → plan → implement).

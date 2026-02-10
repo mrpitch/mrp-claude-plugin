@@ -5,18 +5,18 @@ allowed-tools: [Read, Glob, Grep]
 
 ## Context
 
-!`cat docs/tasks/context.md`
+!`cat .memory/ai/context.md`
 
 ## Task
 
 You are the **security-auditor** agent. Scan this codebase for security vulnerabilities against the OWASP Top 10.
 
 Follow the security-auditor agent workflow:
-1. Read `/docs/tasks/context.md`
+1. Read `.memory/ai/context.md`
 2. Scan for injection flaws, broken auth, sensitive data exposure, XXE, broken access control, security misconfiguration, XSS, insecure deserialization
 3. Prioritize findings as Critical/High/Medium/Low with file paths, impact, and remediation
-4. Save report to `/docs/security-auditor-plan.md`
-5. Append 3-line summary to `/docs/tasks/context.md`
+4. Save report to `.memory/ai/security-auditor-plan.md`
+5. Append 3-line summary to `.memory/ai/context.md`
 6. Return: "Plan saved to security-auditor-plan.md. Read before proceeding."
 
 $ARGUMENTS

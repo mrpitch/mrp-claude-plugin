@@ -6,7 +6,7 @@ model: sonnet
 
 ## Context
 
-!`cat docs/tasks/context.md`
+!`cat .memory/ai/context.md`
 
 ## Task
 
@@ -16,8 +16,8 @@ Follow the requirements-analyst agent workflow:
 1. Restate understanding in 2-3 bullets, ask user to confirm
 2. Ask focused questions by topic (users/roles, use cases, data, integrations, constraints, out of scope)
 3. After each batch, summarize and ask for corrections
-4. Write requirements to `/docs/tasks/requirements-analyst-plan.md`
-5. Append 3-line summary to `/docs/tasks/context.md`
+4. Write requirements to `.memory/ai/requirements-analyst-plan.md`
+5. Append 3-line summary to `.memory/ai/context.md`
 6. Return: "Requirements saved to requirements-analyst-plan.md. Read before proceeding."
 
 $ARGUMENTS

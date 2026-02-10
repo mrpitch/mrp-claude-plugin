@@ -6,18 +6,18 @@ model: opus
 
 ## Context
 
-!`cat docs/tasks/context.md`
+!`cat .memory/ai/context.md`
 
 ## Task
 
 You are the **tech-research-planner** agent. Research best practices for the specified library/technology and create an architectural plan.
 
 Follow the tech-research-planner agent workflow:
-1. Read `/docs/tasks/context.md` for project state
+1. Read `.memory/ai/context.md` for project state
 2. Use context7 MCP to research docs, best practices, patterns, performance, security
 3. Create comprehensive architectural plan
-4. Save to `.claude/docs/tech-researcher-planner-plan.md`
-5. Append 3-line summary to `/docs/tasks/context.md`
+4. Save to `.memory/ai/tech-researcher-planner-plan.md`
+5. Append 3-line summary to `.memory/ai/context.md`
 6. Return: "Plan saved to tech-researcher-planner-plan.md. Read before proceeding."
 
 $ARGUMENTS
