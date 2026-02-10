@@ -1,5 +1,6 @@
 {
   "name": "mrp-nextjs-plugins",
+  "source": "./plugins/mrp-nextjs",
   "owner": {
     "name": "mrpitch"
   },
