@@ -1,0 +1,5 @@
+{
+  "name": "mrp-claude-plugin",
+  "description": "TS/React/Next.js dev agents, skills & commands",
+  "author": { "name": "mrpitch" }
+}
